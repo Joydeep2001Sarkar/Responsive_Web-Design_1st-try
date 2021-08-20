@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* NaVigation Styling  */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+.nav-list li {
+    list-style: none;
+    padding: 27px;
+    font-size: 2.2rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover {
+   color: rgb(178, 230, 189);
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    height: 106px;
+}
+.logo img {
+    width: 68%;
+    border-radius: 75px;
+    border: 2px solid white;
+}
+.rightnav {
+    width: 30%;
+    text-align: right;
+}
+
+#search {
+    border-radius: 25px;
+    padding: 7px;
+    height: 15px;
+    width: 60%;
+    border: 3px solid #8c91d5;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.backgnd{
+    background: rgba(0,0,0, 0.5) url('../image/img1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* background Firstsection stylling  */
+.firstSection{
+    height: 75vh;
+}
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondHalf{
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.secondHalf img {
+    border-radius: 49px;
+    border: 2px solid #003cff;
+}
+
+.text-big {
+    font-size: 34px;
+    margin-bottom: 11px;
+}
+
+.text-small {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+/* Section Right Styling  */
+.Section {
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    margin: 12PX auto;
+    background-color: #ede3e3;
+    border-radius: 34px;
+}
+.paras {
+    padding: 0px 22px;
+}
+.Left{
+   flex-direction: row-reverse;
+}
+.sectionTag{
+    text-align: center;
+}
+.sectionSubTag {
+    padding: 17px 16px;
+}
+
+
+.thumbnail img {
+    border: 4px solid #b28484;
+    border-radius: 25px;
+}
+
+.thumbnail{
+    margin: 0px 12px;
+}
+
+/* contact form  */
+.contact{
+    background-color: rgb(179, 219, 206);
+}
+
+.text_center {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form div {
+    margin-top: 10px;
+} /* as Margin is not valid for the Inline tag like Input */ 
+
+.form input {
+    padding: 6px;
+    font-size: 19px;
+    text-align: center;
+    border: 2px solid #6c73a4;
+    border-radius: 15px;
+    width: 362px;
+}
+
+/* footer design */
+.copyright {
+    text-align: center;
+    padding: 3px 1px;
+}
+
+
+/* button Styling  */
+.btn-sml {
+    padding: 2px;
+    font-size: 13px;
+    margin: 12px;
+    border: 2px solid #5a6fbc;
+    border-radius: 9px;
+    width: 61px;
+    font-family: monospace;
+    cursor: pointer;
+}
+.btn {
+    padding: 2px 10px;
+    margin: 2px 15px;
+    border: 3px solid #11189e;
+    border-radius: 18px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.btn:hover{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(5, 6, 83);
+    cursor: pointer;
+}
+
+.btn-sml:hover{
+    color: white;
+    background-color: rgb(137, 138, 224);
+    cursor: pointer;
+}
+
+.btn-sml-cntcnt{
+    padding: 6px;
+    font-size: 13px;
+    border: 2px solid #6f6bc9;
+    border-radius: 9px;
+    width: 61px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.btn-sml-cntcnt:hover{
+    color: white;
+    background-color: rgb(137, 138, 224);
+    cursor: pointer;
+}
+
+/* Hamburger Button Styling */
+
+.burger{
+    display: none; /* We will make the hamburger button invisible while Media Query is not fired */
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    cursor: pointer;
+}
+.line{
+    width: 33px;
+    height: 4px;
+    margin: 4px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+/* Media Queries */

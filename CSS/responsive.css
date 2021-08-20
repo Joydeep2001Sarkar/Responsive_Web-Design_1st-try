@@ -1,0 +1,119 @@
+@media only screen and (max-width : 1150px)
+{
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 1s ease-out;
+        height: 470px;
+    }
+    .nav-list li {
+        list-style: none;
+        padding: 10px;
+        font-size: 1.8rem;
+    }
+    .rightnav {
+        width: 40%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
+    }
+    
+    #search {
+        width: 90%;
+        font-size: 15px;
+    }
+    
+    .nav-list {
+        width: 100%;
+    }
+    
+    .logo img {
+        margin: auto;
+    }
+    
+    /* For hamburger  */
+    
+    .burger{
+        display: block;
+    }
+    .h_nav-resp{
+        height: 75px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    
+    /* For the FirstSection  */
+    .firstSection {
+        height: 105vh;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .firstHalf {
+        width: 80%;
+    }
+    .text-big {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    
+    .secondHalf {
+        width: 100%;
+        margin-top: 115px;
+        margin-bottom: 6px;
+    }
+    .secondHalf img {
+        width: 178px;
+        height: 166px;
+    }
+    
+    /* For the Next Setions   */
+    .Section{
+        flex-direction: column-reverse;
+        max-width: 85%;
+    }
+    .sectionSubTag {
+        padding: 17px 0px;
+    }
+    
+    .thumbnail img {
+        border: 4px solid #b28484;
+        border-radius: 25px;
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }
+    
+     /* Button Styling  */
+    
+     .btn {
+        margin: 2px 7px;
+    }
+    .text_center {
+        font-size: 2rem;
+    }
+    
+    .form input {
+        padding: 4px;
+        font-size: 14px;
+        text-align: inherit;
+        border: 2px solid #6c73a4;
+        border-radius: 9px;
+        width: 100%;
+    }
+    .btn-sml-cntcnt {
+        padding: 2px;
+        width: 48px;
+        font-size: 13px;
+    }
+    
+}
